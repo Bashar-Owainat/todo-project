@@ -1,0 +1,45 @@
+h1 {
+    display: inline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+a {
+    margin-left: 20px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+header {
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {
+    margin: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 95%;
+    border: solid;
+
+}
+
+main img {
+    width: 200px;
+    float: left;
+}
+
+#info-form {
+    
+   padding-top: 200px;
+}
