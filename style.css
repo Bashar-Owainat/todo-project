@@ -1,11 +1,24 @@
 h1 {
     display: inline;
 }
-
+body{
+    width: 960px;
+    margin :auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 table, th, td {
     border: 1px solid black;
     padding: 15px;
     margin-left: 10px;
+}
+
+.green{
+    background-color: rgb(7, 167, 7);
+}
+
+.red{
+    background-color: red;
 }
 
 a {
@@ -14,32 +27,98 @@ a {
 
 form {
     margin-top: 25px;
+    
+}
+form label{
+    padding: 25px;
+    
+}
+.my-img p{
+    border: solid 1px #00B4D8;
+    /* display: flex; */
+    padding: 15px;
+}
+.my-info{
+    border: solid #00B4D8 1px;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    
+   
+}
+.my-img {
+    border: solid #00B4D8 1px;
+    padding: 20px;
+    display: inline-block;
+    
 }
 
+.img-info{
+    display: flex;
+    align-items: center;
+}
+
+.my-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+.btn{
+    background-color: #00B4D8;
+}
+
+.btn:hover {
+    background-color: #90E0EF;
+}
 header {
     border: solid;
-    padding: 10px;
-    margin: 10px;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #00B4D8 ;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    width: 50px;
+}
 main {
     margin: 10px;
 }
 
-footer {
-    position: absolute;
-    bottom: 10px;
-    width: 95%;
+header  a{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 20px 20px;
+}
+
+
+
+footer div {
+  
+    display: flex;
+    justify-content: space-around;
+    padding: left 20px;
+    padding-right: 20px;
     border: solid;
+    text-align: center;
+    color: #00B4D8 ;
+    margin-top: 50px;
 
 }
 
-main img {
-    width: 200px;
-    float: left;
-}
 
-#info-form {
+/* #info-form {
     
    padding-top: 200px;
-}
+} */
+
+header a:hover{
+    color: #00B4D8;
+} 

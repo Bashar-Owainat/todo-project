@@ -1,53 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <header>
-        <i class="fas fa-th-list"></i>
+        <img src="assets/todo-logo-removebg-preview.png" alt="">
         <h1>TO DO</h1>
         <a href="index.html">Home Page</a>
     </header>
 
     <main>
-        <h2>About</h2>
-        <img src="assets/my-photo.jpeg" alt="">
-        <h3>Bashar Owainat</h3>
-        <br>
-        <h3>A Software engineering student at ASAC | CodeFellows Student</h3>
+        <h2>About Me</h2>
+        <div class="img-info">
+
+            <div class="my-img">
+
+                <img src="assets/my-photo.jpeg" alt="">
+
+            </div>
+
+            <div class="my-info">
+                <p>Bashar Owainat</p>
+                <p>A Software engineering student at ASAC | CodeFellows Student</p>
+            </div>
+
+         </div>
+
+         <h2>Contact Me</h2>
 
         <form id="info-form" action="">
-            <label for="" >Name</label>
+            <label for="">Name</label>
             <input type="text">
 
-            <br>
 
-            <label for="" >Email</label>
-            <input type="email" >
 
-            <br>
+            <label for="">Email</label>
+            <input type="email">
+
+
 
             <label for="">Message</label>
             <input type="text">
 
-            <input type="submit">
+            <input class="btn" type="submit">
         </form>
     </main>
 
     <footer>
-        &copy; 
-        <i class="fas fa-envelope"></i>
-        <i class="fas fa-paper-plane"></i>
-        <i class="fas fa-map-marker-alt"></i>
+        <div>
+            &copy;
+            <i class="fas fa-envelope"></i>
+            <i class="fas fa-paper-plane"></i>
+            <i class="fas fa-map-marker-alt"></i>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>
